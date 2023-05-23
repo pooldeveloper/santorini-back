@@ -14,7 +14,7 @@
     "@strapi/plugin-users-permissions": "4.10.5",
     "@strapi/provider-upload-cloudinary": "^4.10.5",
     "@strapi/strapi": "4.10.5",
-    "mysql": "2.18.1"
+    "mysql2": "^3.3.2"
   },
   "author": {
     "name": "A Strapi developer"
@@ -28,6 +28,3 @@
   },
   "license": "MIT"
 }
-
-
-
