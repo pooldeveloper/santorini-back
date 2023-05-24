@@ -4,7 +4,7 @@
   "info": {
     "singularName": "pagina-inicio",
     "pluralName": "pagina-inicios",
-    "displayName": "Pagina Inicio",
+    "displayName": "pagina inicio",
     "description": ""
   },
   "options": {
@@ -27,14 +27,15 @@
       "type": "uid"
     },
     "portadaPC": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
