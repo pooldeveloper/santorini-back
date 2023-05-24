@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pagina_inicios",
+  "info": {
+    "singularName": "pagina-inicio",
+    "pluralName": "pagina-inicios",
+    "displayName": "Pagina Inicio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "portada": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "portadaPC": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

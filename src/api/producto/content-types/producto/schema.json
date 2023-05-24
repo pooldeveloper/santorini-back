@@ -42,15 +42,13 @@
     "precio": {
       "type": "float"
     },
-    "stock": {
-      "type": "integer"
-    },
     "categoria": {
       "type": "enumeration",
       "enum": [
         "collares",
         "pulseras",
-        "aretes"
+        "aretes",
+        "anillos"
       ]
     },
     "populares": {
